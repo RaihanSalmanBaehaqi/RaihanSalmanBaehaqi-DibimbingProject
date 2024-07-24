@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/E-Commerce/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="/E-Commerce/css/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="/E-Commerce/assets/logo-shoeskit-putih.png" alt="logo">
+            <h1>ShoesKit</h1>
+        </div>
+
+        <nav>
+            <div class="nav-left">
+                <div class="menu-toggle">
+                    <input type="checkbox" id="toggleScroll" onclick="toggleScroll()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#designed">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-right">
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+                <ul>
+                    <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                    <li><a href="#"><i class="bi bi-cart4"></i></a></li>
+                    <li><a href="/E-Commerce/html/account.html"><i class="bi bi-person"></i></a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="main swiper mySwiper" id="home">
+            <div class="wrapper swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <img src="/E-Commerce/assets/gambar-1.jpg" alt="" class="image">
+                    <div class="image-data">
+                        <span class="text">Summer Sale</span>
+                        <h2>
+                            Discount 30%
+                        </h2>
+                        <a href="#product" class="button">Shopping Now</a>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="/E-Commerce/assets/gambar-2.jpg" alt="" class="image">
+                    <div class="image-data">
+                        <span class="text">Summer Sale</span>
+                        <h2>
+                            Discount 30%
+                        </h2>
+                        <a href="#product" class="button">Shopping Now</a>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="/E-Commerce/assets/gambar-3.jpg" alt="" class="image">
+                    <div class="image-data">
+                        <span class="text">Summer Sale</span>
+                        <h2>
+                            Discount 30%
+                        </h2>
+                        <a href="#product" class="button">Shopping Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+
+        <section class="layout-product" id="product">
+            <div>
+            <h1>BEST SELLER</h1>
+            </div>
+            <div class="content-product">
+                <div class="product">
+                    <img src="https://shorturl.at/u4jkr" alt="Sepatu-Best-Seller">
+                    <h4><a href="/E-Commerce/html/product.html">Nike Air Force 1</a> </h4>
+                    <h3>Rp. 2,000,00</h3>
+                    <button>BUY</button>
+                </div>
+                <div class="product">
+                    <img src="https://shorturl.at/u4jkr" alt="Sepatu-Best-Seller">
+                    <h4><a href="/E-Commerce/html/product.html">Nike Air Force 1</a> </h4>
+                    <h3>Rp. 2,000,00</h3>
+                    <button>BUY</button>
+                </div>
+                <div class="product">
+                    <img src="https://shorturl.at/u4jkr" alt="Sepatu-Best-Seller">
+                    <h4><a href="/E-Commerce/html/product.html">Nike Air Force 1</a> </h4>
+                    <h3>Rp. 2,000,00</h3>
+                    <button>BUY</button>
+                </div>
+                <div class="product">
+                    <img src="https://shorturl.at/u4jkr" alt="Sepatu-Best-Seller">
+                    <h4><a href="/E-Commerce/html/product.html">Nike Air Force 1</a> </h4>
+                    <h3>Rp. 2,000,00</h3>
+                    <button>BUY</button>
+                </div>
+                <div class="product">
+                    <img src="https://shorturl.at/u4jkr" alt="Sepatu-Best-Seller">
+                    <h4><a href="/E-Commerce/html/product.html">Nike Air Force 1</a> </h4>
+                    <h3>Rp. 2,000,00</h3>
+                    <button>BUY</button>
+                </div>
+                <div class="product">
+                    <img src="https://shorturl.at/u4jkr" alt="Sepatu-Best-Seller">
+                    <h4><a href="/E-Commerce/html/product.html">Nike Air Force 1</a> </h4>
+                    <h3>Rp. 2,000,00</h3>
+                    <button>BUY</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer" id="designed">
+            <p>&copy; 2024 ShoesKit. All Rights Reserved | Designed by Raihan Salman Baehaqi</p>
+            <div class="social-icons" id="sosial">
+                Follow Us : <a href="https://github.com/RaihanSalmanBaehaqi" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/raihan-salman-baehaqi-938b9a248/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-youtube"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/E-Commerce/js/script.js"></script>
+    <script src="/E-Commerce/js/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+</html>
